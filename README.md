@@ -1,0 +1,2 @@
+Go crazy
+Go stupid
