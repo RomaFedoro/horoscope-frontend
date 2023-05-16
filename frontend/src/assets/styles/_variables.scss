@@ -1,0 +1,39 @@
+:root {
+  --padding-wrapper: 2.4rem;
+  --padding-content: 4.8rem 5.6rem;
+  --gap-content: 4.8rem;
+  --gap-item: 0.6rem;
+  --gap-item-big: 1.8rem;
+
+  --background-color-main: #121212;
+  --background-color-secondary: hsl(260, 30%, 97%);
+  --background-color-secondary-shine: hsl(274, 14%, 90%);
+  --background-color-content: #ffffff;
+  --background-color-item: hsl(213, 36%, 93%);
+  --background-color-substrate: #171717;
+
+  --color-secondary: #859099;
+  --color-secondary-hover: #4b535a;
+  --color-main: #26e79a;
+  --color-error: #e72646;
+
+  --color-main-hover: #3dfaae;
+
+  --border-radius: 0.4em;
+  --border-radius-middle: 0.8em;
+  --border-radius-big: 1.2em;
+
+  --line-height: 1.25;
+
+  --border: 0.1rem solid;
+  --border-line: var(--border) currentColor;
+
+  --border-radius-button: 10rem;
+  --padding-button: 1.4em 2em;
+  --padding-button-small: 0.8em 1.2em;
+  --font-size-button: 1.4rem;
+  --background-color-field: #292929;
+
+  --animation: 0.2s ease-in-out;
+  --opacity: 0.6;
+}
