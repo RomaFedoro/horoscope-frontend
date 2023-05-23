@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  row-gap: 0.36em;
+  font-size: var(--font-size-button);
+
+  .error {
+    color: var(--color-error);
+    font-size: 0.6em;
+    font-weight: 600;
+    margin-bottom: 0.36em;
+  }
+
+  &_error {
+    .input {
+      outline-color: var(--color-error);
+
+      &:focus {
+        outline-color: var(--color-error);
+      }
+    }
+  }
+}
+
+.label {
+  user-select: none;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.input {
+  background-color: var(--background-color-field);
+  outline: 0.1rem solid transparent;
+
+  &:focus {
+    outline-color: var(--color-main);
+  }
+}
