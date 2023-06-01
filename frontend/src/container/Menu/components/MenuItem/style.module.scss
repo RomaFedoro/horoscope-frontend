@@ -1,0 +1,32 @@
+.menu__item {
+  font-size: var(--font-size-button);
+  display: flex;
+  align-items: center;
+  column-gap: 0.8em;
+  width: 100%;
+  color: white;
+  padding: var(--padding-button);
+  user-select: none;
+  cursor: pointer;
+  border-radius: var(--border-radius-button);
+  transition: background-color var(--animation), color var(--animation);
+
+  &:hover {
+    background-color: var(--background-color-substrate);
+  }
+
+  &_active {
+    background-color: var(--color-main);
+    color: black;
+    cursor: default;
+
+    &:hover {
+      background-color: var(--color-main);
+    }
+  }
+
+  svg {
+    width: 1.2em;
+    height: 1.2em;
+  }
+}
